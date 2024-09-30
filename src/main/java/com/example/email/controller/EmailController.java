@@ -18,6 +18,7 @@ public class EmailController {
     private EmailService emailService;
 
     @PostMapping("/upload")
+    @CrossOrigin(origins = "*")
     public ResponseEntity<List<String>> uploadFile(@RequestParam("file") MultipartFile file) {
         if (file.isEmpty()) {
             return ResponseEntity.badRequest().body(null);

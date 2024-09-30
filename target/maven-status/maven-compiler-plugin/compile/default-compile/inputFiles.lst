@@ -1,4 +1,5 @@
 /home/joab/Desktop/email/src/main/java/com/example/email/EmailApplication.java
 /home/joab/Desktop/email/src/main/java/com/example/email/ServletInitializer.java
+/home/joab/Desktop/email/src/main/java/com/example/email/WebConfig.java
 /home/joab/Desktop/email/src/main/java/com/example/email/controller/EmailController.java
 /home/joab/Desktop/email/src/main/java/com/example/email/service/EmailService.java
